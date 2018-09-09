@@ -5,7 +5,7 @@
 [![GoDoc](https://godoc.org/github.com/kyonko-moe/kagami?status.svg)](https://godoc.org/github.com/kyonko-moe/kagami)
 
 ## Desc
-`kagami` 是 kyonko 的第一个项目，源自个人兴趣和研究。
+`kagami` 是 `kyonko` 的第一个项目，源自个人兴趣和研究。
 这个 package 包含了用 go 实现的 p2p 网络发现和内容分发的 server & client。
 
 ## Documentation
