@@ -9,7 +9,7 @@
 这个 package 包含了用 go 实现的 p2p 网络发现和内容分发的 server & client。
 
 ## Documentation
-<about.kyonko.moe>
+<https://about.kyonko.moe>
 
 ## Installationn
 `kagami` 使用 golang 源码 编译 / 运行 方式
