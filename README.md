@@ -2,7 +2,7 @@
 ----
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/kyonko-moe/kagami/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kyonko-moe/kagami)](https://goreportcard.com/report/github.com/kyonko-moe/kagami)
-[![GoDoc](https://godoc.org/github.com/go-swagger/go-swagger?status.svg)](http://godoc.org/github.com/go-swagger/go-swagger)
+[![GoDoc](https://godoc.org/github.com/kyonko-moe/kagami?status.svg)](https://godoc.org/github.com/kyonko-moe/kagami)
 
 ## Desc
 `kagami` 是 kyonko 的第一个项目，源自个人兴趣和研究。
