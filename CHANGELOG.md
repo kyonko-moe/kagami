@@ -1,6 +1,6 @@
 # v0.0.1
 **Added**
-- package structur of kagami
+- package structure of kagami
 - default node picker
 - default node namer
 - default node register
