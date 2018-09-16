@@ -6,5 +6,6 @@
 - default node register
 - /register http api
 - CHANGELOG.md
+
 **Changed**
 - refine var name according to term doc : https://about.kyonko.moe/kyonko-network-impl-details/
