@@ -2,7 +2,7 @@ package http
 
 // ArgRegister is.
 type ArgRegister struct {
-	Name string `form:"name"`
+	Name string `form:"name" binding:"required"`
 }
 
 type RespRegister struct {
@@ -12,7 +12,7 @@ type RespRegister struct {
 }
 
 type ArgLocate struct {
-	Name string `form:"name"`
+	Name string `form:"name" binding:"required"`
 }
 
 type RespLocate struct {
@@ -23,7 +23,7 @@ type RespLocate struct {
 }
 
 type ArgConnect struct {
-	IPv4 string `form:"ipv4"`
+	IPv4 string `form:"ipv4" binding:"required"`
 }
 
 type RespConnect struct {

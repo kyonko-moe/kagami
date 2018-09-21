@@ -21,6 +21,9 @@ func (s *Server) Register(c *gin.Context) {
 	if err = bind(c, arg); err != nil {
 		return
 	}
+	if ip == nil {
+		ip = net.ParseIP("127.0.0.1")
+	}
 	if n, err = s.tracker.Register(c, ip, arg.Name); err != nil {
 		c.AbortWithError(http.StatusBadRequest, err)
 		return
