@@ -12,8 +12,8 @@ const (
 )
 
 type Node struct {
-	Name string      `json:"name"`
-	ID   int64       `json:"id"`
-	Addr *net.IPAddr `json:"-"`
-	Type nodeType    `json:"type"`
+	Name string   `json:"name"`
+	ID   uint64   `json:"id"`
+	IP   net.IP   `json:"-"`
+	Type nodeType `json:"type"`
 }
