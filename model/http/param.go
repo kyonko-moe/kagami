@@ -1,13 +1,32 @@
 package http
 
-// ParamRegister is.
-type ParamRegister struct {
-	Name string `form:"name"`
+// ArgRegister is.
+type ArgRegister struct {
+	Name string `form:"name" binding:"required"`
 }
 
-type ParamLocate struct {
+type RespRegister struct {
+	ID   uint64 `json:"id"`
+	Name string `json:"name"`
+	Type string `json:"type"`
 }
 
-type ParamConnect struct {
-	Name string `form:"name"`
+type ArgLocate struct {
+	Name string `form:"name" binding:"required"`
+}
+
+type RespLocate struct {
+	ID   uint64 `json:"id"`
+	Name string `json:"name"`
+	Type string `json:"type"`
+	IPv4 string `form:"ipv4"`
+}
+
+type ArgConnect struct {
+	IPv4 string `form:"ipv4" binding:"required"`
+}
+
+type RespConnect struct {
+	IPv4 string `json:"ipv4"`
+	Port int    `json:"port"`
 }

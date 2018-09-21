@@ -1,3 +1,10 @@
+# v0.0.2
+**Added**
+- /locate http api
+- fix namer
+- add some ut
+- refine naming
+
 # v0.0.1
 **Added**
 - package structure of kagami
